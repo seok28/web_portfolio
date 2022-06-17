@@ -35,8 +35,8 @@
     "check-lint": "eslint --ignore-path .gitignore src/**/*.{js,jsx}",
     "check-format": "prettier --check \"src/**/*.(js|jsx)\"",
     "run-mock": "json-server --watch mock-api.json --port 4000",
-    "deploy": "gh-pages -d build",
-    "predeploy": "yarn run build"
+    "predeploy": "react-scripts build", 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -66,5 +66,4 @@
     "prettier": "2.4.1"
   },
   "homepage": "https://seok28.github.io/web_portfolio/"
-  
 }
