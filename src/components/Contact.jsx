@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Profile from 'assets/contact_2.png';
+import Profile from 'assets/contact_3.png';
 import { BsPhone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
