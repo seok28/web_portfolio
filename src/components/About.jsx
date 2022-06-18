@@ -4,9 +4,9 @@ import Fade from 'react-reveal/Fade';
 import { ReactComponent as ReactLogo } from 'assets/react.svg';
 import { ReactComponent as HtmlLogo } from 'assets/html.svg';
 import { ReactComponent as CssLogo } from 'assets/css.svg';
-import { ReactComponent as GitLogo } from 'assets/git.svg';
+import { ReactComponent as GithubLogo } from 'assets/github.svg';
 import { ReactComponent as JSLogo } from 'assets/js.svg';
-import { ReactComponent as JavaLogo } from 'assets/java.svg';
+
 import Progress from './Progress';
 import { useRef } from 'react';
 
@@ -17,9 +17,10 @@ const MainBody = () => {
     <StyledWrapper ref={aboutRef}>
       <Fade left>
         <StyledLeft>
+          <h1>Skills</h1>
           <div>
             <ReactLogo />
-            <Progress percent="70" />
+            <Progress percent="75" />
           </div>
           <div>
             <HtmlLogo />
@@ -27,20 +28,20 @@ const MainBody = () => {
           </div>
           <div>
             <CssLogo />
-            <Progress percent="80" />
+            <Progress percent="70" />
           </div>
           <div>
             <JSLogo />
             <Progress percent="80" />
           </div>
           <div>
-            <GitLogo />
+            <GithubLogo />
             <Progress percent="60" />
           </div>
-          <div>
+          {/* <div>
             <JavaLogo />
             <Progress percent="60" />
-          </div>
+          </div> */}
         </StyledLeft>
       </Fade>
 
@@ -56,19 +57,15 @@ const MainBody = () => {
             <br />
             <div>
               <p>
-                반갑습니다! 저는 웹 프론트엔드 개발자를 꿈꾸고 있는 , 석준수입니다.
+                반갑습니다! 저는 <em>웹 프론트엔드 개발자</em>를 꿈꾸고 있는 , 석준수입니다.
                 <br />
                 <br />
-                웹잼에 참여하기 위해 SOPT에 들어왔고, 만나는 다른 파트원들 모두에게 웹을 영업할 정도로{' '}
-                <em>웹에 진심</em>인 프론트엔드 개발자입니다. 아직 배울 것이 많은 개발자이지만, 주어지는 과제, 프로젝트
-                하나 하나 모두 성장을 위한 기회로 삼고 항상 <em>최선을 다해 노력하고 몰입하는 개발자</em>입니다.
+                저는 대학교에서 4년동안 배운 기술들을 바탕으로 좀 더 나은 웹 프론트엔드 개발자가 되기위해
+                <div className=""></div> 열심히 배우고 노력하는 개발자고 되고 싶습니다.
                 <br />
                 <br />
-                주로 <em>React</em>를 사용하여 개발합니다. <em>HTML</em>, <em>CSS</em>와 <em>JS</em> 또한 다양한 사이드
-                프로젝트 경험이 있어 능숙하게 사용할 수 있습니다. SOPT 애니메이션 스터디에 참여하여, 다양한 애니메이션을
-                구현하고, 적절한 라이브러리를 사용하여 원하는 <em>애니메이션</em>을 적용할 수 있습니다. 합동 세미나,
-                솝커톤 등에 참여하며 개발자 간 협업 뿐 아니라, 다른 파트 분들과도 협업을 경험해보며,{' '}
-                <em>원활한 협업</em>을 할 준비도 되어있습니다.
+                주로 <em>React</em>를 사용하여 개발합니다. <em>HTML</em>, <em>CSS</em>와 <em>JS</em> 또한 대학교에서
+                많은 프로젝트 경험이 있어 기술을 다루는데 있어서 문제가 없습니다.
               </p>
             </div>
           </Fade>
@@ -106,6 +103,11 @@ const StyledLeft = styled.div`
   margin-top: 9rem;
   margin-left: 5rem;
   color: white;
+  align-items: center;
+  & > h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
 
   & > div {
     display: flex;
