@@ -15,7 +15,7 @@
 |🎰 MBTI|ENFP|
 |📝 블로그|[`Velog`](https://velog.io/@seok28)
 
-<hr />
+
 ### 폴더구조
 |:---|:---:|
 | src|메인 폴더|
