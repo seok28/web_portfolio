@@ -23,5 +23,12 @@
 | components| 프로젝트를 이루는 주된 파일(jsx)|
 | pages| 페이지 로딩|
 | styles|폰트 및 css|
+
+### 폴더구조(public)
+|파일 이름|내용|
+|:---|:---:|
+| favicon.ico| 아이콘|
+| index.html| html 파일)|
+
 <hr />
 
