@@ -28,7 +28,7 @@
 |파일 이름|내용|
 |:---|:---:|
 | favicon.ico| 아이콘|
-| index.html| html 파일)|
+| index.html| html 파일|
 
 <hr />
 
