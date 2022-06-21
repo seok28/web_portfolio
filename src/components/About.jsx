@@ -51,9 +51,7 @@ const MainBody = () => {
             <img src={bearImg} alt="" />
             <h3>About Me </h3>
             <h2>석 준 수 | Junsu Seok</h2>
-            {/* <h3>
-              SOPT 29th YB <span>Web</span> Part
-            </h3> */}
+            {}
             <br />
             <div>
               <p>
@@ -66,6 +64,7 @@ const MainBody = () => {
                 <br />
                 주로 <em>React</em>를 사용하여 개발합니다. <em>HTML</em>, <em>CSS</em>와 <em>JS</em> 또한 대학교에서
                 많은 프로젝트 경험이 있어 기술을 다루는데 있어서 문제가 없습니다.
+                <br /> 여기다가 학력 및 자격증등
               </p>
             </div>
           </Fade>

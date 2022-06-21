@@ -53,7 +53,7 @@ const MainBody = () => {
           <span ref={bgRef2}></span>
         </div>
         <span ref={nameRef}>Junsu Seok | 석준수</span>
-        <IoIosArrowDown />
+        <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>
       <Nav location={mainRef.current} />
     </StyledWrapper>
@@ -77,6 +77,10 @@ const StyledWrapper = styled.section`
   @media (min-width: 320px) and (max-width: 480px) {
     flex-direction: column;
     overflow-y: hidden;
+  }
+  & > IoIosArrowDown {
+    color: white;
+    top: 20;
   }
 `;
 
