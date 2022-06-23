@@ -15,6 +15,7 @@ const MainBody = () => {
   const textRef2 = useRef();
   const bgRef2 = useRef();
   const nameRef = useRef();
+  const descRef = useRef();
 
   useEffect(() => {
     let tl = gsap.timeline();
@@ -24,7 +25,8 @@ const MainBody = () => {
       .to(textRef2.current, 0.2, { opacity: 1 }, '-=0.1')
       .to(bgRef.current, 0.3, { scaleX: 0 })
       .to(bgRef2.current, 0.3, { scaleX: 0 })
-      .to(nameRef.current, 0.5, { opacity: 1 }, '-=0.1');
+      .to(descRef.current, 0.3, { opacity: 1 }, '+=0.5')
+      .to(nameRef.current, 0.3, { opacity: 1 }, '-=0.9');
   }, []);
 
   return (
@@ -52,7 +54,10 @@ const MainBody = () => {
           <span ref={textRef2}>Developer</span>
           <span ref={bgRef2}></span>
         </div>
-        <span ref={nameRef}>Junsu Seok | 석준수</span>
+        <div>
+          <span ref={nameRef}>Junsu Seok | 석준수</span>
+          <span ref={descRef}> 밑으로 스크롤하여 더보기</span>
+        </div>
         <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>
       <Nav location={mainRef.current} />
@@ -137,17 +142,47 @@ const StyledDesc = styled.div`
       background-color: #090910;
     }
   }
-
-  & > span {
-    margin-top: 4rem;
-    font-size: 2.8rem;
-    opacity: 0;
-    text-align: right;
+  & > div:nth-child(3) {
+    & > span:first-child {
+      margin-top: 4rem;
+      font-size: 3rem;
+      opacity: 0;
+      text-align: right;
+    }
+    & > span:last-child {
+      margin-top: 4rem;
+      font-size: 3rem;
+      display: block;
+      opacity: 0;
+      text-align: right;
+    }
   }
-
+  // arrowdown
   & > svg {
+    @keyframes ball {
+      0% {
+        top: 0px;
+      }
+      95% {
+        opacity: 0.5;
+        width: 90px;
+      }
+      to {
+        top: 300px;
+        width: 115px;
+        height: 90px;
+      }
+    }
     fill: #f8df8b;
-    opacity: 0.5;
+    opacity: 0;
+    position: relative;
+    left: 100px;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: ball 1s ease-in Infinite Alternate;
+    animation-delay: 2s;
   }
 
   @media (min-width: 320px) and (max-width: 370px) {

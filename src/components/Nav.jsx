@@ -21,6 +21,11 @@ const Nav = ({ scrollIndex }) => {
         </li>
         <li>
           <Dot num={4} scrollIndex={scrollIndex}>
+            Careers
+          </Dot>
+        </li>
+        <li>
+          <Dot num={5} scrollIndex={scrollIndex}>
             Contact
           </Dot>
         </li>

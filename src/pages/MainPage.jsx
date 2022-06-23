@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { useEffect, useRef, useState } from 'react';
 // import Projects from 'components/Projects';
 import Contact from 'components/Contact';
+import Careers from 'components/Careers';
 
 const MainPage = () => {
   const outerRef = useRef();
@@ -44,6 +45,14 @@ const MainPage = () => {
             behavior: 'smooth',
           });
           setScrollIndex(4);
+        } else if (scrollTop >= pageHeight && scrollTop < pageHeight * 4) {
+          //now Page 4
+          outerRef.current.scroll({
+            top: pageHeight * 4,
+            left: 0,
+            behavior: 'smooth',
+          });
+          setScrollIndex(5);
         }
       } else {
         // 스크롤 올리는 경우
@@ -79,6 +88,14 @@ const MainPage = () => {
             behavior: 'smooth',
           });
           setScrollIndex(3);
+        } else if (scrollTop >= 0 && scrollTop < pageHeight * 5) {
+          // now Page 5
+          outerRef.current.scroll({
+            top: pageHeight * 3,
+            left: 0,
+            behavior: 'smooth',
+          });
+          setScrollIndex(4);
         }
       }
     };
@@ -94,6 +111,7 @@ const MainPage = () => {
       <MainBody />
       <About />
       {/* <Projects /> */}
+      <Careers />
       <Contact />
       <Nav scrollIndex={scrollIndex} />
     </StyledWrapper>
