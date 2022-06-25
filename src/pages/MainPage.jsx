@@ -123,7 +123,7 @@ export default MainPage;
 const StyledWrapper = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color: #f08080;
   overflow-y: scroll;
   z-index: 2;
 

@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import mainImg from 'assets/seokjoon.png';
+import mainImg from 'assets/contact_3.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { GoMail } from 'react-icons/go';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -25,7 +25,7 @@ const MainBody = () => {
       .to(textRef2.current, 0.2, { opacity: 1 }, '-=0.1')
       .to(bgRef.current, 0.3, { scaleX: 0 })
       .to(bgRef2.current, 0.3, { scaleX: 0 })
-      .to(descRef.current, 0.3, { opacity: 1 }, '+=0.5')
+      .to(descRef.current, 0.5, { opacity: 1 }, '+=0.5')
       .to(nameRef.current, 0.3, { opacity: 1 }, '-=0.9');
   }, []);
 
@@ -56,7 +56,7 @@ const MainBody = () => {
         </div>
         <div>
           <span ref={nameRef}>Junsu Seok | 석준수</span>
-          <span ref={descRef}> 밑으로 스크롤하여 더보기</span>
+          <span ref={descRef}> 더보기</span>
         </div>
         <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>
@@ -100,7 +100,7 @@ const StyledDesc = styled.div`
   font-family: 'TmonMonsori';
   font-size: 8rem;
   z-index: 10;
-  color: blue;
+  color: #f8df8b;
   line-height: 1.205;
 
   & > div:first-child {
@@ -119,7 +119,7 @@ const StyledDesc = styled.div`
       z-index: 100;
       transform-origin: left;
       transform: scaleX(0);
-      background-color: #f8df8b;
+      background-color: #50bcdf;
     }
   }
 
@@ -150,25 +150,27 @@ const StyledDesc = styled.div`
       text-align: right;
     }
     & > span:last-child {
+      position: absolute;
       margin-top: 4rem;
       font-size: 3rem;
       display: block;
       opacity: 0;
-      text-align: right;
+      right: 5px;
+      bottom: 0;
     }
   }
   // arrowdown
   & > svg {
     @keyframes ball {
       0% {
-        top: 0px;
+        top: 100px;
       }
       95% {
-        opacity: 0.5;
+        opacity: 0.7;
         width: 90px;
       }
       to {
-        top: 300px;
+        top: 200px;
         width: 115px;
         height: 90px;
       }
@@ -208,16 +210,17 @@ const StyledDesc = styled.div`
 
 const StyledImgContainer = styled.div`
   position: relative;
-  width: 60%;
+  width: 50%;
   height: 100%;
-  background-color: #f8df8b;
+  background-color: #5f9ea0;
   overflow: hidden;
 
   & > img {
     position: absolute;
-    top: 0;
-    left: -0.1rem;
-    width: 100%;
+    top: 10rem;
+    left: -30rem;
+    width: 150%;
+    height: 100%;
     z-index: 2;
   }
 

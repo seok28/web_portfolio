@@ -64,7 +64,7 @@ const StyledContactWrapper = styled.div`
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: black;
+  background-color: #f08080;
 
   @media (min-width: 320px) and (max-width: 480px) {
     display: flex;
@@ -82,7 +82,7 @@ const StyledLeft = styled.div`
   width: 120%;
   height: 200%;
   border-radius: 50%;
-  background-color: #f8df8b;
+  background-color: #5f9ea0;
 
   & > img {
     width: 130%;
