@@ -14,6 +14,7 @@
 |📱 연락처|010-7527-0349|
 |🎰 MBTI|ENFP|
 |📝 블로그|[`Velog`](https://velog.io/@seok28)
+|📂깃허브|[`Github`](https://github.com/seok28)
 
 
 ### 폴더구조(src)
