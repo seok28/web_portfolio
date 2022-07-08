@@ -12,7 +12,7 @@
 |😎 이름|석준수|
 |📅 생년월일|1998.09.28|
 |📱 연락처|010-7527-0349|
-|🎰 MBTI|ENFP|
+|🎰 MBTI(성격유형검사)|ENFP|
 |📝 블로그|[`Velog`](https://velog.io/@seok28)
 |📂깃허브|[`Github`](https://github.com/seok28)
 
