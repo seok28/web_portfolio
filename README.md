@@ -25,6 +25,18 @@
 | pages| 페이지 로딩|
 | styles|폰트 및 css|
 
+### 폴더 구조 (components)
+|파일 이름|내용|
+|:---|:---:|
+| About.jsx| about 페이지(나에 대한 소개, 기술 등)|
+| Contact.jsx| 나에게 연락할 수 있는 수단(연락처)|
+| Nav.jsx| 스크롤 네비게이션|
+| Progress.jsx|기술 퍼센트 css|
+| Careers.jsx| 구현 중(내 학력과 커리어 및 자격증 정보|
+| Mainbody.jsx| 메인 페이지 구성 및 css|
+|Projects.jsx| 프로젝트 페이지(미구현)|
+
+
 ### 폴더구조(public)
 |파일 이름|내용|
 |:---|:---:|
