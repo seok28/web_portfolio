@@ -36,6 +36,13 @@
 | Mainbody.jsx| 메인 페이지 구성 및 css|
 |Projects.jsx| 프로젝트 페이지(미구현)|
 
+### 폴더구조(styles)
+|파일 이름|내용|
+|:---|:---:|
+| fonts| 폰트|
+| globalStyle.js| 전체적인 스타일 js|
+| slick-theme.css| 스타일 테마 css|
+| slick.css| 전체적인 스타일 css |
 
 ### 폴더구조(public)
 |파일 이름|내용|
