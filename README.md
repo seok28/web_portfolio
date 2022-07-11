@@ -42,7 +42,7 @@
 | fonts| 폰트|
 | globalStyle.js| 전체적인 스타일 js|
 | slick-theme.css| 스타일 테마 css|
-| slick.css| 전체적인 스타일 css |
+| slick.css| 전체적인 스타일 css|
 
 ### 폴더구조(public)
 |파일 이름|내용|
