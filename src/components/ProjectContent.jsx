@@ -1,88 +1,85 @@
 import styled from 'styled-components';
-import final from 'assets/final.gif';
+import travel from 'assets/travel.gif';
 import { BsDot, BsLink } from 'react-icons/bs';
 
 const ProjectContent = () => {
   return (
     <StyledContentWrapper>
       <StyledDesc>
-        <h2>
-          C<em>O</em>EAT : 모두가 행복한, 메뉴 취합 서비스
-        </h2>
+        <h2>대학교4학년 졸업작품 여행 계획 앱(Flutter)</h2>
         <ul>
           <li>
             <span>
-              오늘 뭐 먹을래? 아무거나는 이제 그만! 팀원들의 선택을 바탕으로 오늘 코잇할 메뉴가 정해지면 못 먹는 메뉴는
-              제외하고, 함께 먹고 싶은 메뉴를 최종 결정해주는 서비스
+              코로나로 인해 힘들어 하던 시기 중 국내 여행에 대한 지표가 필요하였고, 많은 주변 사람들의 조사결과 대다수가
+              여행을 가고 있어 이를 방지하고자 이 프로젝트에 대해 생각하였고 여행계획에 관련된 앱을 만들게 되었습니다.
             </span>
           </li>
           <li>
-            <h2>2021년 11월</h2>
+            <h2>2022년 3월~ ing</h2>
           </li>
           <li>
             <p>
               <BsDot />
-              솝커톤 COEAT 팀 프론트엔드 개발자로 참여 및 Refactoring 진행중
+              대학교 마지막 작품으로 진행된 졸업 프로젝트(진행중에 있음)
             </p>
           </li>
           <li>
-            <h2>개발 담당 View</h2>
+            <h2>개발 페이지(Travel,Favorite,Plan)</h2>
           </li>
           <li>
             <h3>
               <BsDot />
-              Landing Page
+              Travel Page
             </h3>
             <p>
-              반응형 화면 구현을 고려한 화면 설계를 하였으며, <em>컴포넌트 및 스타일 재사용성</em> 을 높이기 위한 방법을
-              고려하여 화면을 구현하였습니다.
-            </p>
-          </li>
-          <li>
-            <h3>
-              {' '}
-              <BsDot />
-              Host Page
-            </h3>
-            <p>
-              Host가 다른 사용자들에게 링크 공유를 하는 페이지로, 링크 복사 및 복사 버튼 클릭 시 모달 창 표시,{' '}
-              <em>종이 가루가 흩날리는 듯한 애니메이션</em>을 구헌하였습니다.
+              공공데이터포털에 여행 데이터를 조회 및 검색과 데이터 클릭시 <em>구글 맵 지도기능과 게시판 기능</em>이 있는
+              상세페이지로 이동할 수 있음
             </p>
           </li>
           <li>
             <h3>
               {' '}
               <BsDot />
-              Setting Page
+              favorite Page
             </h3>
             <p>
-              사용자의 닉네임을 입력하는 페이지입니다. 애니메이션 라이브러리를 사용하여 자연스러운{' '}
-              <em>Fade In 애니메이션</em>을 추가하였습니다.
+              travel page에서 더블클릭시 즐겨찾기가 추가되었습니다 라는 문구와 함께 즐겨찾기 페이지로 데이터가 저장되어
+              페이지에서 즐겨찾기한 데이터를 볼 수 있고, 더블클릭시 삭제 기능 구현
+            </p>
+          </li>
+          <li>
+            <h3>
+              {' '}
+              <BsDot />
+              Plan Page
+            </h3>
+            <p>
+              사용자의 여행 계획을 만들 수 있는 페이지, 계획의 <em>CRUD</em> 구현 예정
             </p>
           </li>
         </ul>
         <StyledLink>
-          <a href="https://github.com/CO-EAT/CO-EAT-CLIENT" target="_blank" rel="noopener noreferrer">
-            <BsLink /> <span>Github Repository</span>
+          <a href="https://github.com/seok28/travel" target="_blank" rel="noopener noreferrer">
+            <BsLink /> <span>깃허브 오픈 소스</span>
           </a>
-          <a
+          {/* <a
             href="https://time-knee-9fd.notion.site/COEAT-44d4a363242c4742809743dc03f17f91"
             target="_blank"
             rel="noopener noreferrer">
             <BsLink /> <span>솝커톤 회고 기록</span>
-          </a>
+          </a> */}
         </StyledLink>
       </StyledDesc>
       <StyledImgWrapper>
-        <img src={final} alt="" />
+        <img src={travel} alt="" />
         <StyledTags>
-          <ul>
+          {/* <ul>
             <li>SOPT</li>
             <li>솝커톤</li>
             <li>React</li>
             <li>Styled-component</li>
             <li>Animation</li>
-          </ul>
+          </ul> */}
         </StyledTags>
       </StyledImgWrapper>
     </StyledContentWrapper>
@@ -211,7 +208,7 @@ export const StyledImgWrapper = styled.div`
   width: 100%;
 
   & > img {
-    width: 100%;
+    width: 50%;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
