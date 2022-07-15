@@ -6,7 +6,7 @@ import '../styles/slick-theme.css';
 import '../styles/slick.css';
 import ProjectContent from './ProjectContent';
 import ProjectContent2 from './ProjectContnet2';
-import ProjectContent3 from './ProjectContent3';
+// import ProjectContent3 from './ProjectContent3';
 import bearImg from 'assets/bear.png';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -43,9 +43,9 @@ const Projects = () => {
             <StyledContentSecond>
               <ProjectContent2 />
             </StyledContentSecond>
-            <StyledContentLast>
+            {/* <StyledContentLast>
               <ProjectContent3 />
-            </StyledContentLast>
+            </StyledContentLast> */}
           </Slider>
         </Fade>
       )}
@@ -104,7 +104,7 @@ const StyledMobile = styled.div`
   color: white;
   font-size: 1.7rem;
   line-height: 1.8;
-  z-index: 2;
+  z-index: 2;z
   background-color: black;
 
   & > p {
