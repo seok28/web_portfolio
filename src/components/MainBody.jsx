@@ -56,7 +56,7 @@ const MainBody = () => {
         </div>
         <div>
           <span ref={nameRef}>Junsu Seok | 석준수</span>
-          <span ref={descRef}> 더보기</span>
+          <span ref={descRef}> 아래로 스크롤</span>
         </div>
         <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>

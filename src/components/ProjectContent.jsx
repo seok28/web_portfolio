@@ -142,7 +142,7 @@ export const StyledDesc = styled.div`
 
       & > h2 {
         font-size: 1.8rem;
-        color: orange;
+        color: skyblue;
       }
 
       & > h3 {

@@ -77,7 +77,7 @@ const StyledContentFirst = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 3rem;
-  background-color: black;
+  background-color: #f08080;
 `;
 
 const StyledContentSecond = styled.div`
