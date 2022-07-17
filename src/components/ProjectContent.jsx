@@ -32,7 +32,7 @@ const ProjectContent = () => {
               Travel Page
             </h3>
             <p>
-              공공데이터포털에 여행 데이터를 조회 및 검색과 데이터 클릭시 <em>구글 맵 지도기능과 게시판 기능</em>이 있는
+              공공데이터포털에 여행 데이터를 조회 및 검색과 데이터 클릭시 <em>구글 맵 기능과 게시판 기능</em>이 있는
               상세페이지로 이동할 수 있음
             </p>
           </li>
@@ -142,7 +142,7 @@ export const StyledDesc = styled.div`
 
       & > h2 {
         font-size: 1.8rem;
-        color: skyblue;
+        color: blue;
       }
 
       & > h3 {
@@ -203,12 +203,13 @@ export const StyledDesc = styled.div`
   }
 `;
 
-export const StyledImgWrapper = styled.div`
+const StyledImgWrapper = styled.div`
   margin-right: 2rem;
   width: 100%;
 
   & > img {
-    width: 50%;
+    width: 60%;
+    height: 500;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {

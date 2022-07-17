@@ -18,6 +18,8 @@ const MainBody = () => {
             <div>
               <p> 자격증 및 학력사항 </p>
             </div>
+            <br />
+            <p>작성예정(왼쪽 학력사항 오른쪽 자격증)</p>
           </Fade>
         </StyledContent>
       </StyledRight>

@@ -1,74 +1,79 @@
 import styled from 'styled-components';
-import Brunch from 'assets/brunch.gif';
+import board from 'assets/map_board.gif';
 import { BsDot, BsLink } from 'react-icons/bs';
-import { StyledContentWrapper, StyledDesc, StyledLink, StyledImgWrapper, StyledTags } from 'components/ProjectContent';
+import { StyledContentWrapper, StyledDesc, StyledLink, StyledTags } from 'components/ProjectContent';
 
 const ProjectContent2 = () => {
   return (
     <StyledContentWrapper>
       <CustomStyledDesc>
         <h2>
-          글이 작품이 되는 공간, Brunch <br />: Re-Design
+          가족같은 2남 1녀 <br />: Map_Board
         </h2>
         <ul>
           <li>
-            <span>SOPT 29th 클라이언트, 디자인, 서버 합동 세미나에서 진행한 프로젝트입니다.</span>
+            <span>한국성서대학교 웹 시스템 설계 및 개발2(NodeJs) 시간에 진행한 게시판 프로젝트</span>
           </li>
           <li>
-            <h2>2021년 11월 ~ 12월</h2>
+            <h2>2021년 09월 ~ 12월</h2>
           </li>
           <li>
             <h3>
               {' '}
               <BsDot />
-              Article
+              Board
             </h3>
             <p>
-              아티클 페이지의 header, body, footer, 댓글의 UI를 구현하였으며, 모바일/태블릿 기기에 대한 <i>반응형 뷰</i>
-              도 적용하였습니다.
+              {' '}
+              게시판 페이지로 일반적인 게시판 페이지로 사용할 수 있고 게시판 기능의 기본적인 <em>CRUD</em> 기능을 구현함
             </p>
             <br />
+            <h3>
+              {' '}
+              <BsDot />
+              Map
+            </h3>
             <p>
-              <em>Body (본문)</em> : 전체 본문의 스타일(제목, 부제목, 사진 등)을 그대로 서버에서 가져오기 위해, 서버-웹
-              파트원, 파트장 분들과 상의하여 전체 본문 내용을 HTML 태그로 변환하여 저장하였습니다. 일반적인 저장 방식은
-              아니었지만, 주어진 상황 속에서 최선의 <i>결과를 도출하기 위하여 끊임없이 노력</i>하여, 원하는 결과를
-              만들어낼 수 있었습니다.
+              <em> 지도 페이지</em> : 기본적인 지도의 기능을 가지고 있고 검색시 그 주변의 마커가 형성되고 데이터 클릭시
+              마커로 이동하는 기능구현 및 등록할 수 있음 지도에서 자신의 특별한 장소가 있으면 등록하여서 게시판을
+              이용하여 다른 사람들과 교류할 수 있는 시스템입니다.
             </p>
+            <br />
+            <h3>
+              {' '}
+              <BsDot />
+              ETC
+            </h3>
             <p>
-              <em>댓글, 좋아요 버튼</em> : 실시간 댓글 작성 기능과 좋아요 버튼을 구현하였습니다. 앱잼에서{' '}
-              <i>댓글이나 좋아요, 스크랩</i> 등의 기능이 필요하다면 이를 응용하여 구현할 수 있습니다.
+              이 프로젝트는 수업을 들으면서 가장 흔한게 접했던 게시판 기능과 지도의 데이터를 불러오는 기능을 조합해서
+              하면 도움이 될 것 같아서 계획했던 프로젝트 입니다.
             </p>
           </li>
         </ul>
         <CustomStyledLink>
-          <a href="https://github.com/we-sopt-sibi/client" target="_blank" rel="noopener noreferrer">
-            <BsLink /> <span>Github Repository</span>
-          </a>
-          <a
-            href="https://time-knee-9fd.notion.site/Brunch-Re-design-45eef6160db44949aebcf4113b0fbdf9"
-            target="_blank"
-            rel="noopener noreferrer">
-            <BsLink /> <span>Brunch 회고록</span>
+          <a href="https://github.com/seok28/map" target="_blank" rel="noopener noreferrer">
+            <BsLink /> <span>깃허브 저장소</span>
           </a>
         </CustomStyledLink>
       </CustomStyledDesc>
       <StyledImgWrapper>
-        <img src={Brunch} alt="" />
+        <img src={board} alt="" />
         <CustomStyledTags>
-          <ul>
+          {/* <ul>
             <li>SOPT</li>
             <li>합동 세미나</li>
             <li>Re-Design</li>
             <li>REST API</li>
             <li>댓글</li>
             <li>좋아요</li>
-          </ul>
+          </ul> */}
         </CustomStyledTags>
       </StyledImgWrapper>
     </StyledContentWrapper>
   );
 };
 
+// #4a2c2c(갈색 계열)
 export default ProjectContent2;
 
 const CustomStyledDesc = styled(StyledDesc)`
@@ -126,5 +131,13 @@ const CustomStyledLink = styled(StyledLink)`
   & > a {
     background-color: #f8df8b;
     color: #4a2c2c;
+  }
+`;
+
+const StyledImgWrapper = styled.div`
+  & > img {
+    width: 75%;
+    float: right;
+    margin-right: 10rem;
   }
 `;

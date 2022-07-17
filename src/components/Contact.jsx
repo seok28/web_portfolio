@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Profile from 'assets/contact_3.png';
 import { BsPhone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsInstagram } from 'react-icons/bs';
+import { FaVimeoSquare } from 'react-icons/fa';
 import { VscGithubAlt } from 'react-icons/vsc';
 
 const Contact = () => {
@@ -42,12 +42,16 @@ const Contact = () => {
               <span>seokjoonsoo@gmail.com</span>
             </div>
             <div>
-              <BsInstagram />
-              <span>9_js_28</span>
+              <a href="https://velog.io/@seok28" target="_blank" rel="noopener noreferrer">
+                <FaVimeoSquare size="40" color="white" />
+              </a>
+              <span> &nbsp; seok28</span>
             </div>
             <div>
-              <VscGithubAlt />
-              <span>seok28</span>
+              <a href="https://github.com/seok28" target="_blank" rel="noopener noreferrer">
+                <VscGithubAlt size="50" color="white" />
+              </a>
+              &nbsp; seok28
             </div>
           </StyledContactInfo>
         </StyledContact>
@@ -89,7 +93,6 @@ const StyledLeft = styled.div`
     position: relative;
     bottom: -5rem;
     left: 3rem;
-    z-index: 1;
   }
 
   @media (min-width: 320px) and (max-width: 370px) {
@@ -195,7 +198,7 @@ const StyledContactInfo = styled.div`
   & > div {
     display: flex;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 
     & > svg {
       width: 4rem;
@@ -216,7 +219,7 @@ const StyledContactInfo = styled.div`
       }
 
       & > span {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
     }
   }

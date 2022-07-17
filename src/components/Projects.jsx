@@ -84,7 +84,7 @@ const StyledContentSecond = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 3rem;
-  background-color: #4a2c2c;
+  background-color: #5f9ea0;
 `;
 
 const StyledContentLast = styled.div`
