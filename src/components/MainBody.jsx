@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import mainImg from 'assets/contact_3.png';
+// import mainImg from 'assets/contact_3.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { GoMail } from 'react-icons/go';
 import { IoIosArrowDown } from 'react-icons/io';
@@ -43,7 +43,7 @@ const MainBody = () => {
         </a>
       </StyledRightNav>
       <StyledImgContainer>
-        <img src={mainImg} alt="" />
+        <img src={''} alt="" />
       </StyledImgContainer>
       <StyledDesc>
         <div>
