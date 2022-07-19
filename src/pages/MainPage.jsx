@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { useEffect, useRef, useState } from 'react';
 import Projects from 'components/Projects';
 import Contact from 'components/Contact';
-import Careers from 'components/Careers';
+import Education from 'components/Education';
 
 const MainPage = () => {
   const outerRef = useRef();
@@ -111,7 +111,7 @@ const MainPage = () => {
       <MainBody />
       <About />
       <Projects />
-      <Careers />
+      <Education />
       <Contact />
       <Nav scrollIndex={scrollIndex} />
     </StyledWrapper>

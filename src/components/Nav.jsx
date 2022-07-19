@@ -21,7 +21,7 @@ const Nav = ({ scrollIndex }) => {
         </li>
         <li>
           <Dot num={4} scrollIndex={scrollIndex}>
-            Careers
+            Education
           </Dot>
         </li>
         <li>

@@ -15,17 +15,19 @@ const MainBody = () => {
   const textRef2 = useRef();
   const bgRef2 = useRef();
   const nameRef = useRef();
+  const bgRef3 = useRef();
   const descRef = useRef();
-
   useEffect(() => {
     let tl = gsap.timeline();
     tl.to(bgRef.current, 0.3, { scaleX: 1 })
       .to(bgRef2.current, 0.3, { scaleX: 1 })
+      .to(bgRef3.current, 0.3, { scaleX: 1 })
       .to(textRef.current, 0.2, { opacity: 1 }, '-=0.1')
       .to(textRef2.current, 0.2, { opacity: 1 }, '-=0.1')
       .to(bgRef.current, 0.3, { scaleX: 0 })
       .to(bgRef2.current, 0.3, { scaleX: 0 })
-      .to(descRef.current, 0.5, { opacity: 1 }, '+=0.5')
+      .to(bgRef3.current, 0.3, { scaleX: 0 })
+      .to(descRef.current, 0.5, { opacity: 1 }, '+=0.2')
       .to(nameRef.current, 0.3, { opacity: 1 }, '-=0.9');
   }, []);
 
@@ -56,6 +58,7 @@ const MainBody = () => {
         </div>
         <div>
           <span ref={nameRef}>Junsu Seok | 석준수</span>
+          <span ref={bgRef3}></span>
           <span ref={descRef}> 아래로 스크롤</span>
         </div>
         <IoIosArrowDown></IoIosArrowDown>
@@ -139,7 +142,7 @@ const StyledDesc = styled.div`
       z-index: 100;
       transform-origin: left;
       transform: scaleX(0);
-      background-color: #090910;
+      background-color: black;
     }
   }
   & > div:nth-child(3) {
@@ -149,28 +152,39 @@ const StyledDesc = styled.div`
       opacity: 0;
       text-align: right;
     }
+    & > span:nth-child(2) {
+      width: 75%;
+      height: 20%;
+      position: absolute;
+      right: 6rem;
+      top: 20rem;
+      z-index: 100;
+      transform-origin: left;
+      transform: scaleX(0);
+      background-color: white;
+    }
     & > span:last-child {
       position: absolute;
       margin-top: 4rem;
       font-size: 3rem;
       display: block;
       opacity: 0;
-      right: 5px;
-      bottom: 0;
+      right: 3rem;
+      bottom: -20rem;
     }
   }
   // arrowdown
   & > svg {
     @keyframes ball {
       0% {
-        top: 100px;
+        top: 40rem;
       }
       95% {
         opacity: 0.7;
         width: 90px;
       }
       to {
-        top: 200px;
+        top: 30rem;
         width: 115px;
         height: 90px;
       }
