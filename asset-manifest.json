@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web_portfolio/static/css/main.716c4699.chunk.css",
-    "main.js": "/web_portfolio/static/js/main.7460b636.chunk.js",
-    "main.js.map": "/web_portfolio/static/js/main.7460b636.chunk.js.map",
+    "main.js": "/web_portfolio/static/js/main.4456a3f8.chunk.js",
+    "main.js.map": "/web_portfolio/static/js/main.4456a3f8.chunk.js.map",
     "runtime-main.js": "/web_portfolio/static/js/runtime-main.0ea206db.js",
     "runtime-main.js.map": "/web_portfolio/static/js/runtime-main.0ea206db.js.map",
     "static/js/2.77d23772.chunk.js": "/web_portfolio/static/js/2.77d23772.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/js.45687a3d.svg": "/web_portfolio/static/media/js.45687a3d.svg",
     "static/media/map_board.8f19bac4.gif": "/web_portfolio/static/media/map_board.8f19bac4.gif",
     "static/media/middle.5f5a5e98.svg": "/web_portfolio/static/media/middle.5f5a5e98.svg",
+    "static/media/portfolio.6b2c1bd8.gif": "/web_portfolio/static/media/portfolio.6b2c1bd8.gif",
     "static/media/react.f1484e29.svg": "/web_portfolio/static/media/react.f1484e29.svg",
     "static/media/travel.2d7ea662.gif": "/web_portfolio/static/media/travel.2d7ea662.gif",
     "static/media/university.8b74efeb.svg": "/web_portfolio/static/media/university.8b74efeb.svg"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.0ea206db.js",
     "static/js/2.77d23772.chunk.js",
     "static/css/main.716c4699.chunk.css",
-    "static/js/main.7460b636.chunk.js"
+    "static/js/main.4456a3f8.chunk.js"
   ]
 }
