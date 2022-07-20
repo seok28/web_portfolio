@@ -122,7 +122,7 @@ const StyledDesc = styled.div`
       z-index: 100;
       transform-origin: left;
       transform: scaleX(0);
-      background-color: #50bcdf;
+      background-color: cyan;
     }
   }
 
@@ -142,7 +142,7 @@ const StyledDesc = styled.div`
       z-index: 100;
       transform-origin: left;
       transform: scaleX(0);
-      background-color: black;
+      background-color: yellow;
     }
   }
   & > div:nth-child(3) {
@@ -161,7 +161,7 @@ const StyledDesc = styled.div`
       z-index: 100;
       transform-origin: left;
       transform: scaleX(0);
-      background-color: white;
+      background-color: magenta;
     }
     & > span:last-child {
       position: absolute;

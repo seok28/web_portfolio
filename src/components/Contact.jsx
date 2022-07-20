@@ -135,11 +135,11 @@ const StyledRight = styled.div`
 
 const StyledContact = styled.div`
   position: relative;
-  top: 20rem;
+  top: 25rem;
   right: 10rem;
   color: white;
   height: 100%;
-
+  margin-left: 10rem;
   & > h1 {
     font-family: 'TmonMonsori';
     font-size: 5rem;

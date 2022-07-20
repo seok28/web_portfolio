@@ -161,21 +161,21 @@ const StyledContent = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: white;
   line-height: 2;
 
   & > h2 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: bolder;
   }
 
-  // & > h3 {
-  //   font-size: 2.2rem;
-  //   & > span {
-  //     color: #f8df8b;
-  //   }
-  // }
+  & > h3 {
+    font-size: 2.5rem;
+    & > span {
+      color: #f8df8b;
+    }
+  }
 
   & > img {
     width: 6rem;
@@ -184,9 +184,9 @@ const StyledContent = styled.article`
 
   & > div {
     font-size: 1.5rem;
-    width: 35rem;
-
+    width: 50rem;
     & > p {
+      font-size: 2rem;
       & > em {
         color: #f8df8b;
       }

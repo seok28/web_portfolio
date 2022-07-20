@@ -25,13 +25,15 @@ const MainBody = () => {
             <Highschool />
             <Progress percent="100" />
           </div>
-          <p>동국대학교 사범대학 부속고등학교 (2014.03 ~ 2017.02) </p>
+          <p>동국대학교 사범대학 부속고등학교 (2014.03 ~ 2017.02) </p> <br />
+          <p> 이과 계열 </p>
           <br /> <br /> <br /> <br />
           <div>
             <University />
             <Progress percent="87.5" />
           </div>
-          <p> 한국성서대학교 (2017.03 ~ ing) </p>
+          <p> 한국성서대학교 (2017.03 ~ ing) </p> <br />
+          <p> 컴퓨터 소프트웨어학 </p>
         </StyledLeft>
       </Fade>
 

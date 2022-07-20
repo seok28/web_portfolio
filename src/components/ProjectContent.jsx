@@ -32,7 +32,7 @@ const ProjectContent = () => {
               Travel Page
             </h3>
             <p>
-              공공데이터포털에 여행 데이터를 조회 및 검색과 데이터 클릭시 <em>구글 맵 기능과 게시판 기능</em>이 있는
+              공공데이터포털에 여행 데이터를 조회 및 검색과 데이터 클릭시 <em>구글 맵 기능과 게시판 기능</em> 있는
               상세페이지로 이동할 수 있음
             </p>
           </li>
@@ -43,8 +43,8 @@ const ProjectContent = () => {
               favorite Page
             </h3>
             <p>
-              travel page에서 더블클릭시 즐겨찾기가 추가되었습니다 라는 문구와 함께 즐겨찾기 페이지로 데이터가 저장되어
-              페이지에서 즐겨찾기한 데이터를 볼 수 있고, 더블클릭시 삭제 기능 구현
+              travel page에서 더블 클릭시 즐겨찾기가 추가되었습니다 라는 문구와 함께 즐겨찾기 페이지로 &nbsp; &nbsp;
+              데이터가 저장되어 페이지에서 즐겨찾기한 데이터를 볼 수 있고, 더블클릭시 삭제 기능 구현
             </p>
           </li>
           <li>
@@ -210,6 +210,7 @@ const StyledImgWrapper = styled.div`
   & > img {
     width: 60%;
     height: 500;
+    margin-left: 15rem;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
