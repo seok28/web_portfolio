@@ -1,6 +1,7 @@
 import MainBody from 'components/MainBody';
 import About from 'components/About';
 import Nav from 'components/Nav';
+// import Nav2 from 'components/nav2';
 import styled from 'styled-components';
 import { useEffect, useRef, useState } from 'react';
 import Projects from 'components/Projects';
