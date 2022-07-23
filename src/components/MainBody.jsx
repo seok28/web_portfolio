@@ -63,6 +63,7 @@ const MainBody = () => {
         </div>
         <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>
+      <h3>윈도우 10(컴퓨터) 환경에서 실행해주세요! (내 프로필 사진 위치) </h3>
       <Nav location={mainRef.current} />
     </StyledWrapper>
   );
@@ -89,6 +90,15 @@ const StyledWrapper = styled.section`
   & > IoIosArrowDown {
     color: white;
     top: 20;
+  }
+
+  & > h3 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 35rem;
+    top: 60rem;
+    font-weight: bolder;
   }
 `;
 
