@@ -45,7 +45,7 @@ const StyledWrapper = styled.nav`
 
   & > ul {
     display: flex;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     transform: rotate(90deg);
 
