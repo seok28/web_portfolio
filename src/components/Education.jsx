@@ -152,6 +152,7 @@ const StyledContent = styled.article`
   font-size: 1.8rem;
   color: white;
   line-height: 2;
+  margin-right: 200px;
 
   & > h2 {
     font-size: 2.4rem;
