@@ -157,6 +157,7 @@ const StyledContent = styled.article`
   & > h2 {
     font-size: 2.4rem;
     font-weight: bolder;
+    color: purple;
   }
 
   // & > h3 {
