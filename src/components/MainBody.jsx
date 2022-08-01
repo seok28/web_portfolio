@@ -63,7 +63,7 @@ const MainBody = () => {
         </div>
         <IoIosArrowDown></IoIosArrowDown>
       </StyledDesc>
-      <h3>윈도우 10(컴퓨터) 환경에서 실행해주세요! (내 프로필 사진 위치) </h3>
+      <h3>윈도우 10(컴퓨터) 환경에서 실행해주세요!!! (내 프로필 사진 위치) </h3>
       <Nav location={mainRef.current} />
     </StyledWrapper>
   );
