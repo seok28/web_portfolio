@@ -8,7 +8,7 @@ const ProjectContent3 = () => {
         <h1> 개인 포트폴리오 </h1>
         <ul>
           <li>
-            <h2>웹 페이지 제작 </h2>
+            <h2>나의 웹 페이지 제작 </h2>
           </li>
           <li>
             <div>
@@ -20,8 +20,8 @@ const ProjectContent3 = () => {
             <div>
               <h3> 총 5개의 화면 구성 </h3>
               <p>
-                메인화면, 나의 기술과 나에 대한 간략한 소개, 나의 프로젝트 설명, 자격증 및 학교 설명, 나에게 연락할 수
-                있는 연락처 기술{' '}
+                메인화면, 나의 기술과 나에 대한 간략한 소개, 나의 프로젝트 설명, 자격증 및 학교 설명 <br /> 나의 연락처
+                기술{' '}
               </p>
             </div>
           </li>
@@ -30,9 +30,13 @@ const ProjectContent3 = () => {
           </li>
           <li>
             <div>
-              <h3> 소제목 자리3 </h3>
+              <h3> 나의 포트폴리오를 보여주기 위한 웹 페이지 </h3>
 
-              <p>설명3</p>
+              <p>
+                {' '}
+                간략한 나의 포트폴리오를 보여주기 위한 웹 페이지를 제작함으로써 scroll index 를 이용하여 다음 페이지로
+                이동하고 이동하고 총 5개의 페이지로 구성하였습니다.
+              </p>
             </div>
           </li>
         </ul>
@@ -58,7 +62,7 @@ const StyledContentWrapper = styled.div`
   margin: 0 auto;
   width: calc(100% - 29rem);
   height: 100%;
-  color: white;
+  color: blue;
   position: relative;
   padding-top: 12rem;
 
@@ -120,6 +124,7 @@ const StyledDesc = styled.div`
         & > p {
           line-height: 1.8;
           font-weight: normal;
+          text-align: center;
 
           & > em {
             background-color: #ffa60065;
