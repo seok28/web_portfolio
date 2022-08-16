@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
             {/* <div>
               <a href="../pages/portfolio.html" target="_blank" rel="noopener noreferrer">
-                포트폴리오 보러가기
+                포트폴리오 보러가기..
               </a>
             </div> */}
           </StyledContactInfo>
