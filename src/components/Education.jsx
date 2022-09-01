@@ -40,7 +40,7 @@ const MainBody = () => {
       <StyledRight>
         <StyledContent>
           <Fade bottom>
-            <h2>License(자격증)</h2>
+            <h3>License(자격증)</h3>
             <p> 현재까지 취득한 자격증 현황 </p>
             <br />
             <h2> 자동차 운전 면허증 | 서울특별시 경찰청 | 2021.08 </h2>
@@ -157,16 +157,15 @@ const StyledContent = styled.article`
   & > h2 {
     font-size: 2.4rem;
     font-weight: bolder;
-    color: purple;
+    color: white;
+    margin-top: 5px;
   }
-
-  // & > h3 {
-  //   font-size: 2.2rem;
-  //   & > span {
-  //     color: #f8df8b;
-  //   }
-  // }
-
+  & > h3 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 60px;
+  }
   & > img {
     width: 6rem;
     height: 6rem;
