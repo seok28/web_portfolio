@@ -25,7 +25,7 @@ const MainBody = () => {
             <Highschool />
             <Progress percent="100" />
           </div>
-          <p>동국대학교 사범대학 부속고등학교 (2014.03 ~ 2017.02 ) </p> <br />
+          <p>동국대학교 사범대학 부속고등학교 (2014.03 ~ 2017.02) </p> <br />
           <p> 이과 계열 </p>
           <br /> <br /> <br /> <br />
           <div>
