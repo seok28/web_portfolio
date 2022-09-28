@@ -6,7 +6,7 @@ const ProjectContent = () => {
   return (
     <StyledContentWrapper>
       <StyledDesc>
-        <h2>대학교4학년 졸업작품 여행 계획 앱(Flutter)</h2>
+        <h2>대학교 4학년 졸업작품 여행 계획 앱(Flutter)</h2>
         <ul>
           <li>
             <span>

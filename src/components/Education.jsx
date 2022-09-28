@@ -32,7 +32,7 @@ const MainBody = () => {
             <University />
             <Progress percent="87.5" />
           </div>
-          <p> 한국성서대학교 (2017.03 ~  ing) </p> <br />
+          <p> 한국성서대학교 (2017.03 ~ ing) </p> <br />
           <p> 컴퓨터 소프트웨어학 </p>
         </StyledLeft>
       </Fade>

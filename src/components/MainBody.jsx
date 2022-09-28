@@ -40,7 +40,7 @@ const MainBody = () => {
         <a href="https://velog.io/@seok28" target="_blank" rel="noopener noreferrer">
           <FaVimeoSquare size="24" />
         </a>
-        <a href="seokjoonsoo1@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:seokjoonsoo1@gmail.com" target="_blank" rel="noopener noreferrer">
           <GoMail size="24" />
         </a>
       </StyledRightNav>
