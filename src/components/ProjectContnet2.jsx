@@ -12,7 +12,7 @@ const ProjectContent2 = () => {
         </h2>
         <ul>
           <li>
-            <span>한국성서대학교 웹 시스템 설계 및 개발2(NodeJs) 시간에 진행한 게시판 프로젝트</span>
+            <span>한국성서대학교 웹 시스템 설계 및 개발2(NodeJs) 시간에 진행한 게시판 프로젝트 </span>
           </li>
           <li>
             <h2>2021년 09월 ~ 12월</h2>
