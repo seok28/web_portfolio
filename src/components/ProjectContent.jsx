@@ -12,6 +12,7 @@ const ProjectContent = () => {
             <span>
               코로나로 인해 힘들어 하던 시기 중 국내 여행에 대한 지표가 필요하였고, 많은 주변 사람들의 조사결과 대다수가
               여행을 가고 있어 이를 방지하고자 이 프로젝트에 대해 생각하였고 여행계획에 관련된 앱을 만들게 되었습니다
+              <br></br> 사용 언어: flutter 서버:Firebase 툴: Visual Studio Code
             </span>
           </li>
           <li>
